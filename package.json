@@ -1,24 +1,24 @@
 {
-  "name": "sample-node-couchdb",
+  "name": "sample-node-rethinkdb",
   "version": "0.0.0",
-  "description": "Testing CouchDB service",
+  "description": "Testing RethinkDB service",
   "main": "index.js",
   "scripts": {
     "test": "grunt"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:OneRedOak/sample-node-couchdb.git"
+    "url": "git@github.com:OneRedOak/sample-node-rethinkdb.git"
   },
-  "author": "Tim Lebel",
+  "author": "Patrick Ellis",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/OneRedOak/sample-node-couchdb/issues"
+    "url": "https://github.com/OneRedOak/sample-node-rethinkdb/issues"
   },
-  "homepage": "https://github.com/OneRedOak/sample-node-couchdb",
+  "homepage": "https://github.com/OneRedOak/sample-node-rethinkdb",
   "dependencies": {
     "express": "^4.2.0",
-    "nano": "^5.10.0",
+    "rethinkdb": "1.12.*",
     "should": "^4.0.1"
   },
   "devDependencies": {
